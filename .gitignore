@@ -20,3 +20,10 @@ tests/**/coverage/
 *.njsproj
 *.sln
 tsconfig.tsbuildinfo
+
+# Clacky-related configuration
+.1024*
+!.1024
+
+# Package manager directories
+.pnpm-store
