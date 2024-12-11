@@ -51,6 +51,10 @@ const { t, locale, translationCh, translationEn } = useTranslationLang();
     <div v-if="layout === 'vertical'" class="vertical-header-right">
       <!-- 菜单搜索 -->
       <LaySearch id="header-search" />
+      <!-- 地图页面链接 -->
+      <router-link class="navbar-bg-hover" to="/map">
+        Map
+      </router-link>
       <!-- 国际化 -->
       <el-dropdown id="header-translation" trigger="click">
         <GlobalizationIcon
